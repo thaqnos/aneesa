@@ -1,3 +1,10 @@
 @mixin btn-amarelo {
     
 }
+
+@mixin btn-whats {
+    background-color: $corVerde;
+    border: none;
+    color:white;
+    text-transform: uppercase;
+}

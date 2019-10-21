@@ -1,5 +1,18 @@
+/*Cores*/
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: green;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-whats {
+  background-color: #1ACB6C;
+  border: none;
+  color: white;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+.imagem-logo{
+    @include display-flex(center, center);
+}
+
+.imagem-logo > img {
+    width: 400px;
+    margin-top: -20px;
+}
+
+.links-navbar > ul > li{
+    list-style: none;
+}

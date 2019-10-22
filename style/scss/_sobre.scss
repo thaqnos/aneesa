@@ -1,0 +1,13 @@
+
+h2 {
+    @include display-flex(center,center);
+    @include titulo-sobre($corAzul,18px,$corAmareloClaro);
+}
+
+p {
+    @include paragrafo-sobre($corAzul,14px,10px);
+}
+.container{
+    margin: 0 auto;
+    width: 80vw;
+}

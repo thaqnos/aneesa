@@ -1,19 +1,21 @@
-
-
-footer {
-    width: 1440px ;
-    height: 300px;
-}
-
 .footer-images {
-    background-color: #FFD106;
-    height: 255px;
-
+    background-color: $corAmarelo;
+    
 }
-.copyrigth {
-    background-color: #01008C;
-    height: 45px;
 
+.titulo-footer {
+    font-family: $fontTitulos;
+    color: $corAzul;
+    margin-top: 24px;
+    padding-top: 24px;
+}
+
+footer p {
+    color:  $corAmarelo;
+}
+
+.copyrigth {
+    background-color: $corAzul;
 }
 
 

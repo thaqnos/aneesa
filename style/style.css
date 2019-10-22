@@ -1,5 +1,40 @@
+/*Cores*/
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: green;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.imagem-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.imagem-logo > img {
+  width: 400px;
+  margin-top: -20px;
+}
+
+.links-navbar {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.links-navbar > ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.links-navbar > ul > li {
+  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: green;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
@@ -15,6 +20,16 @@ footer {
 .copyrigth {
   background-color: #01008C;
   height: 45px;
+}
+
+/*Cores*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,10 @@
+.cabecalho {
+    @include display-flex(center, center);
+}
+
 .imagem-logo{
     @include display-flex(center, center);
+    margin-bottom: 10px;
 }
 
 .imagem-logo > img {
@@ -7,6 +12,45 @@
     margin-top: -20px;
 }
 
+.links-navbar {
+    width: 100%;
+    margin-top: -25px;
+}
+
+.links-navbar > ul {
+    @include display-flex(center, center);
+    padding-bottom: 10px;
+}
+
 .links-navbar > ul > li{
     list-style: none;
+    font-family: $fontTitulos;
+    margin-right: 10px;
+}
+
+.links-navbar > ul > li > a {
+    color: $corAzul;
+    font-size: $fontSizeNavbar;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.links-navbar > ul > li > a:hover{
+     background-color: $corAmarelo;
+     padding: 12px;
+}
+
+.conteiner {
+    width: 70%;
+}
+
+.conteiner::after{
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: solid 1px $corAzul;
+}
+
+.social-media {
+    font-size: 20px;
 }

@@ -5,34 +5,35 @@
 .imagem-logo{
     @include display-flex(center, center);
     margin-bottom: 10px;
+
+    img {
+        width: 400px;
+        margin-top: -20px;
+    }
 }
 
-.imagem-logo > img {
-    width: 400px;
-    margin-top: -20px;
-}
 
 .links-navbar {
     width: 100%;
     margin-top: -25px;
-}
 
-.links-navbar > ul {
-    @include display-flex(center, center);
-    padding-bottom: 10px;
-}
+    ul {
+        @include display-flex(center, center);
+        padding-bottom: 10px;
 
-.links-navbar > ul > li{
-    list-style: none;
-    font-family: $fontTitulos;
-    margin-right: 10px;
-}
+        li {
+            list-style: none;
+            font-family: $fontTitulos;
+            margin-right: 10px;
 
-.links-navbar > ul > li > a {
-    color: $corAzul;
-    font-size: $fontSizeNavbar;
-    text-decoration: none;
-    padding: 12px;
+            a {
+                color: $corAzul;
+                font-size: $fontSizeNavbar;
+                text-decoration: none;
+                padding: 12px;
+            }
+        }
+    }
 }
 
 .links-navbar > ul > li > a:hover{
@@ -53,4 +54,17 @@
 
 .social-media {
     font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .links-navbar {
+        width: 100%;
+        @include display-flex(center, center);
+    }
+    .links-navbar > ul{
+        width: 100%;
+        display: block;
+        line-height: 2.5;
+        text-align: center;
+    }
 }

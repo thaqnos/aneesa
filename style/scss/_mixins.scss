@@ -1,3 +1,5 @@
-@mixin btn-amarelo {
-    
+@mixin display-flex($align-items, $justify-content) {
+    display: flex;
+    justify-content: $justify-content;
+    align-content: $align-items;
 }

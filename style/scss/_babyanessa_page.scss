@@ -1,3 +1,14 @@
 .btn-whats {
     @include btn-whats;
 }
+.yellow {
+    width: 120%;
+    height: 200px;
+    bottom: -30px;
+    right: -25px;
+}
+
+.card-img-top {
+position: relative;
+z-index: 1;
+}

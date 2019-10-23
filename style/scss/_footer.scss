@@ -1,5 +1,5 @@
 .footer-images {
-    background-color: $corAmarelo;
+    @include display-flex (center,center);
     
 }
 
@@ -8,6 +8,12 @@
     color: $corAzul;
     margin-top: 24px;
     padding-top: 24px;
+    padding-left: 180px;
+}
+
+.img-footer {
+    width: 85%;
+    padding: 20px;
 }
 
 footer p {
@@ -15,8 +21,19 @@ footer p {
 }
 
 .copyrigth {
-    background-color: $corAzul;
+    background-color: #01008C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2px;
+    width: 100%;
+    height: 35px;
 }
 
+.amarelo {
+    background-color: $corAmarelo;
+
+}
 
 

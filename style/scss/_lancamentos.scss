@@ -1,0 +1,71 @@
+.lancamentos {
+    @include display-flex (center,center);
+    flex-direction: column;
+
+}
+
+
+.imagem-card{
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.titulo-lancamento {
+    margin-top: 85px;
+    color: $corAzul;
+    @include display-flex (center,flex-start);
+    padding-left: 205px;
+    font-family: $fontTitulos;
+ }
+
+.cor-titulo {
+    background-color: $corAmarelo;
+    width: 171px;
+    height: 39px;
+    @include display-flex (center,center);
+    
+
+}
+
+.img-cartao {
+    width: 85%;
+}
+
+.cartao p {
+    width: 163px;       
+}
+
+.botao {
+    background-color: $corVerde;
+    width: 196px;
+    height: 40px;
+    border-radius: 3px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    @include display-flex (center,center);
+}
+
+.fab {
+    padding-left: 13px;
+    height: 20px;
+}
+
+.cartoes { 
+    width: 80%;
+    height: 420px;
+    @include display-flex (center,center);
+}
+
+.texto-botao {
+    text-align: center;
+}
+
+@media (max-width: 768px) 
+{
+    .cartoes {
+    @include display-flex (center,center);
+    }
+}
+

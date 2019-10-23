@@ -14,11 +14,5 @@
 @mixin display-flex($align-items, $justify-content) {
     display: flex;
     justify-content: $justify-content;
-    align-content: $align-items;
-}
-
-@mixin bg-yellow {
-background-color: $corAmarelo;
-height: 50%;
-width: 40%;
+    align-items: $align-items;
 }

@@ -1,0 +1,14 @@
+.btn-whats {
+    @include btn-whats()
+}
+
+#product{
+    @include display-flex(center,center)
+}
+
+#depoimento__titulo{
+    font-size: $fontSizeNavbar;
+    font-family: $fontTitulos;
+    color: $corAzul;
+   
+}

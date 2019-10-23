@@ -175,5 +175,25 @@ body {
     margin-top: 30px;
   }
 }
+.btn-whats {
+  background-color: #1ACB6C;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#depoimento__titulo {
+  font-size: 15px;
+  font-family: "OdeToIdleGaming";
+  color: #01008C;
+}
 
 /*# sourceMappingURL=style.css.map */

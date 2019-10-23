@@ -7,10 +7,18 @@
     border: none;
     color:white;
     text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 @mixin display-flex($align-items, $justify-content) {
     display: flex;
     justify-content: $justify-content;
     align-content: $align-items;
+}
+
+@mixin bg-yellow {
+background-color: $corAmarelo;
+height: 50%;
+width: 40%;
 }

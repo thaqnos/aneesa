@@ -16,6 +16,7 @@
 .links-navbar {
     width: 100%;
     margin-top: -25px;
+    margin-bottom: 20px;
 
     ul {
         @include display-flex(center, center);
@@ -39,6 +40,7 @@
 .links-navbar > ul > li > a:hover{
      background-color: $corAmarelo;
      padding: 12px;
+     transition: 1s;
 }
 
 .conteiner {

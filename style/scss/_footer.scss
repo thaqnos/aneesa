@@ -1,14 +1,30 @@
 .footer-images {
     @include display-flex (center,center);
-    
+    width: 70%;
+    text-align: center;
+}
+.amarelo {
+    background-color: $corAmarelo;
+    width: 100%;
+    @include display-flex (center,center);
+    flex-direction: column;
 }
 
+.conteiner-rodape {
+    width: 100%;
+    background-color: $corAmarelo;
+    margin-top: 94px;
+    @include display-flex (flex-start,center);
+}
 .titulo-footer {
     font-family: $fontTitulos;
     color: $corAzul;
+    background-color: $corAmarelo;
     margin-top: 24px;
     padding-top: 24px;
-    padding-left: 180px;
+    margin-bottom: 0px;
+    text-align: left;
+    width: 70%;
 }
 
 .img-footer {
@@ -16,8 +32,9 @@
     padding: 20px;
 }
 
-footer p {
+.p-left {
     color:  $corAmarelo;
+    margin: 0;    
 }
 
 .copyrigth {
@@ -28,12 +45,9 @@ footer p {
     color: white;
     padding: 2px;
     width: 100%;
-    height: 35px;
+    height: 55px;
 }
 
-.amarelo {
-    background-color: $corAmarelo;
 
-}
 
 

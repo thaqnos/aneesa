@@ -5,7 +5,7 @@
 }
 
 
-.imagem-card{
+.imagem-card {
     height: 200px;
     object-fit: cover;
     object-position: top;
@@ -15,7 +15,7 @@
     margin-top: 85px;
     color: $corAzul;
     @include display-flex (center,flex-start);
-    padding-left: 205px;
+    width: 100%;
     font-family: $fontTitulos;
  }
 
@@ -33,7 +33,15 @@
 }
 
 .cartao p {
-    width: 163px;       
+    width: 163px;      
+    
+}
+
+.cartao {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .botao {
@@ -53,8 +61,14 @@
 }
 
 .cartoes { 
-    width: 80%;
+    width: 100%;
     height: 420px;
+    @include display-flex (center,center);
+    margin: 50px 0;
+}
+.conteiner-lancamentos {
+    width: 70%;
+    margin: 0 auto;
     @include display-flex (center,center);
 }
 
@@ -66,6 +80,16 @@
 {
     .cartoes {
     @include display-flex (center,center);
+    flex-direction: column;
+    height: 1410px;
+    }
+    .botao {
+        margin-bottom: 30px;
+    }
+    .titulo-lancamento {
+        @include display-flex (center,center);
+
     }
 }
+
 

@@ -2,4 +2,20 @@
     display: flex;
     justify-content: $justify-content;
     align-items: $align-items;
+<<<<<<< HEAD
+=======
+}
+
+@mixin paragrafo-sobre($cor,$font-size,$margin) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font-size;
+    color: $cor;
+    margin: $margin;
+}
+
+@mixin titulo-sobre($cor,$font-size,$background) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font-size;
+    background-color: $background;
+>>>>>>> be69e9fcf248d05453ad111d06bced1d90780208
 }

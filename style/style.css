@@ -1,107 +1,88 @@
 /*Cores*/
 /*Fontes*/
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
-}
+  width: 100%; }
 
 @font-face {
-  font-family: "OdeToIdleGaming";
-  src: url("./../resources/fonts/OdeToIdleGaming.otf");
-}
+  font-family: 'OdeToIdleGaming';
+  src: url("./../resources/fonts/OdeToIdleGaming.otf"); }
 .cabecalho {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .imagem-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
-}
-.imagem-logo img {
-  width: 400px;
-  margin-top: -20px;
-}
+  margin-bottom: 10px; }
+  .imagem-logo img {
+    width: 400px;
+    margin-top: -20px; }
 
 .links-navbar {
   width: 100%;
   margin-top: -25px;
-  margin-bottom: 20px;
-}
-.links-navbar ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 10px;
-}
-.links-navbar ul li {
-  list-style: none;
-  font-family: "OdeToIdleGaming";
-  margin-right: 10px;
-}
-.links-navbar ul li a {
-  color: #01008C;
-  font-size: 15px;
-  text-decoration: none;
-  padding: 12px;
-}
+  margin-bottom: 20px; }
+  .links-navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px; }
+    .links-navbar ul li {
+      list-style: none;
+      font-family: "OdeToIdleGaming";
+      margin-right: 10px; }
+      .links-navbar ul li a {
+        color: #01008C;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 12px; }
 
 .links-navbar > ul > li > a:hover {
   background-color: #FFD106;
   padding: 12px;
-  transition: 1s;
-}
+  transition: 1s; }
 
 .conteiner {
-  width: 70%;
-}
+  width: 70%; }
 
 .conteiner::after {
   content: "";
   display: block;
   width: 100%;
-  border-bottom: solid 1px #01008C;
-}
+  border-bottom: solid 1px #01008C; }
 
 .social-media {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 @media (max-width: 768px) {
   .links-navbar {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-  }
+    align-items: center; }
 
   .links-navbar > ul {
     width: 100%;
     display: block;
     line-height: 2.5;
-    text-align: center;
-  }
-}
+    text-align: center; } }
 .lancamentos {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .imagem-card {
   height: 200px;
   object-fit: cover;
-  object-position: top;
-}
+  object-position: top; }
 
 .titulo-lancamento {
   margin-top: 85px;
@@ -110,8 +91,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  font-family: "OdeToIdleGaming";
-}
+  font-family: "OdeToIdleGaming"; }
 
 .cor-titulo {
   background-color: #FFD106;
@@ -119,23 +99,19 @@ body {
   height: 39px;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .img-cartao {
-  width: 85%;
-}
+  width: 85%; }
 
 .cartao p {
-  width: 163px;
-}
+  width: 163px; }
 
 .cartao {
   width: 70%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
 .botao {
   background-color: #1ACB6C;
@@ -147,13 +123,11 @@ body {
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .fab {
   padding-left: 13px;
-  height: 20px;
-}
+  height: 20px; }
 
 .cartoes {
   width: 100%;
@@ -161,20 +135,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 0;
-}
+  margin: 50px 0; }
 
 .conteiner-lancamentos {
   width: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .texto-botao {
-  text-align: center;
-}
+  text-align: center; }
 
 @media (max-width: 768px) {
   .cartoes {
@@ -182,26 +153,21 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 1260px;
-  }
+    height: 1410px; }
 
   .botao {
-    margin-bottom: 30px;
-  }
+    margin-bottom: 30px; }
 
   .titulo-lancamento {
     display: flex;
     justify-content: center;
-    align-items: center;
-  }
-}
+    align-items: center; } }
 .footer-images {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 70%;
-  text-align: center;
-}
+  text-align: center; }
 
 .amarelo {
   background-color: #FFD106;
@@ -209,8 +175,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .conteiner-rodape {
   width: 100%;
@@ -218,62 +183,68 @@ body {
   margin-top: 94px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-}
+  align-items: flex-start; }
 
-.titulo-footer {
-  font-family: "OdeToIdleGaming";
-  color: #01008C;
+/*Redes sociais*/
+.redes-sociais {
   background-color: #FFD106;
-  margin-top: 24px;
-  padding-top: 24px;
-  margin-bottom: 0px;
-  text-align: left;
-  width: 70%;
-}
-
-.img-footer {
-  width: 85%;
-  padding: 20px;
-}
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .redes-sociais .redes-sociais__conteiner {
+    width: 70%;
+    margin: 0 auto; }
+    .redes-sociais .redes-sociais__conteiner .redes-sociais__titulo {
+      font-family: "OdeToIdleGaming";
+      color: #01008C;
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 30px; }
+    .redes-sociais .redes-sociais__conteiner .redes-sociais__imagens {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .redes-sociais .redes-sociais__conteiner .redes-sociais__imagens .redes-sociais__links {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .redes-sociais .redes-sociais__conteiner .redes-sociais__imagens .redes-sociais__links .redes-sociais__imagem {
+          width: 90%;
+          margin-right: 30px; }
 
 .p-left {
   color: #FFD106;
-  margin: 0;
-}
+  margin: 0; }
 
 .copyrigth {
   background-color: #01008C;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   padding: 2px;
-  width: 100%;
-  height: 55px;
-}
+  height: 55px; }
 
 .div-carrossel {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .conteiner-botoes {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .botoes {
   margin-top: -200px;
   width: 72%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
+  align-items: center; }
 
 .botao-antes-depois {
   border: solid 5px white;
@@ -283,21 +254,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #01008C;
-}
-.botao-antes-depois .previous-next {
-  margin-top: 6px;
-  font-size: 25px;
-  text-decoration: none;
-  color: white;
-}
+  background-color: #01008C; }
+  .botao-antes-depois .previous-next {
+    margin-top: 6px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white; }
 
 .tamanho-imagem {
   height: 370px;
   width: 70%;
   object-fit: cover;
-  object-position: center;
-}
+  object-position: center; }
 
 .depoimentos {
   width: 70%;
@@ -305,38 +273,30 @@ body {
   padding-top: 100px;
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-start;
-}
-.depoimentos .depoimentos-img {
-  width: 250px;
-  background-color: #FFD106;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  position: relative;
-}
-.depoimentos .depoimentos-img .depoimentos-img__crianca {
-  width: 200px;
-  position: absolute;
-  bottom: 20px;
-}
-.depoimentos .depoimento-texto {
-  width: 50%;
-}
-.depoimentos .depoimento-texto .depoimento-texto__titulo {
-  font-family: "Arial";
-  font-size: 25px;
-  font-weight: bold;
-}
+  align-items: flex-start; }
+  .depoimentos .depoimentos-img {
+    width: 250px;
+    background-color: #FFD106;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: relative; }
+    .depoimentos .depoimentos-img .depoimentos-img__crianca {
+      width: 200px;
+      position: absolute;
+      bottom: 20px; }
+  .depoimentos .depoimento-texto {
+    width: 50%; }
+    .depoimentos .depoimento-texto .depoimento-texto__titulo {
+      font-family: "Arial";
+      font-size: 25px;
+      font-weight: bold; }
 
 @media (max-width: 768px) {
   .depoimentos {
-    flex-direction: column;
-  }
-  .depoimentos .depoimento-texto {
-    margin-top: 30px;
-  }
-}
+    flex-direction: column; }
+    .depoimentos .depoimento-texto {
+      margin-top: 30px; } }
 
 /*# sourceMappingURL=style.css.map */

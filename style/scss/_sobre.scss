@@ -5,10 +5,10 @@
     width: 60%;
 } 
 
-h2 {
+.titulo-sobre {
     @include display-flex(center,center);
-    @include titulo-sobre($corAzul,1rem,$corAmareloClaro);
-    width: 70%;
+    @include titulo-sobre($corAzul,1.5rem,$corAmareloClaro);
+    width: 40%;
     text-align: center;
 }
 h3 {
@@ -19,15 +19,27 @@ h3 {
 .sobre {
     @include display-flex(center,center);
 }
+.paragrafo-sobre-introducao{
+    @include paragrafo-sobre($corAzul,1.5rem);
+    width: 70%;
+    margin-top: 20px;
+    line-height: 2;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #01008C;
+    padding: 20px;
+    border: solid 2px rgba(255,209,6,0.2);
+}
+
 
 .paragrafo-sobre {
-    @include paragrafo-sobre($corAzul,0.75rem);
+    @include paragrafo-sobre($corAzul,1rem);
     width: 70%;
     margin-top: 20px;
     line-height: 1.5;
 }
 .paragrafo-sobre-autora {
-    @include paragrafo-sobre($corAzul,0.75rem);
+    @include paragrafo-sobre($corAzul,1rem);
     margin-top: 20px;
     line-height: 1.5;
 }

@@ -12,6 +12,10 @@ h2 {
     width: 70%;
     text-align: center;
 }
+h3 {
+    @include display-flex(center,center);
+    text-align: center;
+}
 
 .sobre {
     @include display-flex(center,center);
@@ -20,6 +24,11 @@ h2 {
 .paragrafo-sobre {
     @include paragrafo-sobre($corAzul,0.75rem);
     width: 70%;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.paragrafo-sobre-autora {
+    @include paragrafo-sobre($corAzul,0.75rem);
     margin-top: 20px;
     line-height: 1.5;
 }
@@ -37,7 +46,7 @@ h2 {
     height: 130px;
     background-color: $corAmarelo;
     position: relative;
-    top: 45px;
+    top: 65px;
 }
 
 .fundadora-imagem{
@@ -47,5 +56,6 @@ h2 {
 }
 
 .historia-texto{
-    width: 50vw;
+    width: 70vw;
+    margin-top: 70px;
 }

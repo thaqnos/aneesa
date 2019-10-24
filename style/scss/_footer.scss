@@ -23,7 +23,7 @@
 .redes-sociais {
     background-color: $corAmarelo;
     width: 100%;
-    height: 400px;
+    padding: 50px;
     @include display-flex(center, center);
     flex-direction: column;
 
@@ -64,4 +64,30 @@
     @include display-flex(center, center);
     padding: 2px;
     height: 55px;
+}
+
+@media (max-width: 768px){
+    .redes-sociais__titulo{
+        text-align: center;
+    }
+
+    .redes-sociais__imagens {
+        flex-direction: column;
+
+        .redes-sociais__links {
+            width: 70%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 320px){
+    .redes-sociais__imagens {
+        flex-direction: column;
+
+        .redes-sociais__links {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
 }

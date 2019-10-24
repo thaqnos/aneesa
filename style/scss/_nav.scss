@@ -70,3 +70,9 @@
         text-align: center;
     }
 }
+
+@media(max-width: 320px){
+    .conteiner {
+        width: 100%;
+    }
+}

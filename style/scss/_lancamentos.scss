@@ -1,95 +1,124 @@
-.lancamentos {
-    @include display-flex (center,center);
-    flex-direction: column;
-
-}
-
-
-.imagem-card {
-    height: 200px;
-    object-fit: cover;
-    object-position: top;
-}
-
-.titulo-lancamento {
-    margin-top: 85px;
-    color: $corAzul;
-    @include display-flex (center,flex-start);
-    width: 100%;
+.lancamentos-titulo{
     font-family: $fontTitulos;
- }
-
-.cor-titulo {
+    font-size: 1rem;
     background-color: $corAmarelo;
-    width: 171px;
-    height: 39px;
-    @include display-flex (center,center);
-    
-
+    padding: 15px;
+    display: inline-block;
+    color: $corAzul;
+    margin-top: 20px;
 }
 
-.img-cartao {
-    width: 85%;
-}
-
-.cartao p {
-    width: 163px;      
-    
-}
-
-.cartao {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.botao {
-    background-color: $corVerde;
-    width: 196px;
-    height: 40px;
-    border-radius: 3px;
-    font-weight: 600;
-    color: white;
-    text-transform: uppercase;
-    @include display-flex (center,center);
-}
-
-.fab {
-    padding-left: 13px;
-    height: 20px;
-}
-
-.cartoes { 
+.lancamentos {
     width: 100%;
-    height: 420px;
-    @include display-flex (center,center);
-    margin: 50px 0;
-}
-.conteiner-lancamentos {
-    width: 70%;
-    margin: 0 auto;
-    @include display-flex (center,center);
-}
+    margin-top: 50px;
 
-.texto-botao {
-    text-align: center;
-}
+    .conteiner-lancamentos {
+        margin: 0 auto;
+        width: 70%;
 
-@media (max-width: 768px) 
-{
-    .cartoes {
-    @include display-flex (center,center);
-    flex-direction: column;
-    height: 1410px;
+        .lancamentos-cartoes {
+            @include display-flex(center, space-between);
+            margin: 30px 0;
+
+            .lancamentos-cartoes__produto {
+                @include display-flex(center, center);
+                width: 30%;
+                flex-direction: column;
+                text-align: center;
+
+                .lancamentos-cartoes__img {
+                    width: 100%;
+                    height: 280px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+                .lancamentos-cartoes__titulo {
+                    font-family: $fontTituloArial;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-top: 20px;
+                }
+
+                .lancamentos-cartoes__descricao{
+                    font-family: $fontTituloArial;
+                    font-size: 15px;
+                    margin: 0;                    
+                }
+
+                .lancamentos-cartoes__btn-call-to-action {
+                    margin-top: 20px;
+                    border: none;
+                    font-family: $fontTituloArial;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: white;
+                    background: $corVerde;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
     }
-    .botao {
-        margin-bottom: 30px;
-    }
-    .titulo-lancamento {
-        @include display-flex (center,center);
+}
 
+@media(max-width: 768px){
+    .lancamentos {
+        width: 100%;
+    
+        .conteiner-lancamentos {
+            margin: 0 auto;
+            width: 70%;
+    
+            .lancamentos-cartoes {
+                flex-direction: column;
+    
+                .lancamentos-cartoes__produto {
+                    @include display-flex(center, center);
+                    flex-direction: column;
+                    width: 60%;
+                }
+            }
+        }    
+    }
+
+    .lancamentos-cartoes__btn-call-to-action {
+        margin-bottom: 25px;
+    }
+
+    .conteiner-titulo-lancamento{
+        width: 50%;
+        @include display-flex(center, center);
+        margin: 0 auto;
+
+        .lancamentos-titulo {
+            text-align: center;
+        }
     }
 }
 
+@media(max-width: 320px){
+    .lancamentos {
+        width: 100%;
+    
+        .conteiner-lancamentos {
+            margin: 0 auto;
+            width: 100%;
+    
+            .lancamentos-cartoes {
+                flex-direction: column;
+    
+                .lancamentos-cartoes__produto {
+                    @include display-flex(center, center);
+                    flex-direction: column;
+                    width: 100%;
+                }
+            }
+        }    
+    }
 
+    .lancamentos-cartoes__btn-call-to-action {
+        margin-bottom: 25px;
+    }
+}

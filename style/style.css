@@ -142,6 +142,7 @@ body {
           margin: 0; }
         .lancamentos .conteiner-lancamentos .lancamentos-cartoes .lancamentos-cartoes__produto .lancamentos-cartoes__btn-call-to-action {
           margin-top: 20px;
+          margin-bottom: 20px;
           border: none;
           font-family: "Arial";
           font-weight: bold;

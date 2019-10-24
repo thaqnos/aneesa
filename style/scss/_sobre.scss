@@ -3,8 +3,7 @@
     flex-direction: column;
     margin: 0 auto;
     width: 60%;
-
-}
+} 
 
 h2 {
     @include display-flex(center,center);
@@ -59,3 +58,19 @@ h3 {
     width: 70vw;
     margin-top: 70px;
 }
+// --- MEDIA QUERY ---
+@media (min-width: 768px) {
+    .historia {
+        flex-direction: row;
+    }
+    .historia-imagem {
+        top: 20px;
+    }
+    .historia-texto {
+        width: 60vw;
+        margin-top: 0px;
+        padding-left: 45px;
+        padding-top: 30px;
+    }
+} 
+

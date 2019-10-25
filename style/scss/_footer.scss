@@ -16,6 +16,7 @@
     background-color: $corAmarelo;
     margin-top: 94px;
     @include display-flex (flex-start, center);
+    flex-direction: column;
 }
 
 /*Redes sociais*/
@@ -31,6 +32,7 @@
     .redes-sociais__conteiner {
         width: 70%;
         margin: 0 auto;
+        flex-direction: column;
 
         .redes-sociais__titulo {
             font-family: $fontTitulos;

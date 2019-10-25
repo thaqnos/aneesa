@@ -3,6 +3,7 @@ let banners = [
     './resources/img/modelo_11.JPG',
     './resources/img/modelo10.JPG',
     './resources/img/modelo3.JPG',
+    './resources/img/modelo4.JPG',
 ];
 
 let bannerAtual = 0;

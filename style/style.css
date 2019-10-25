@@ -22,9 +22,9 @@ body {
   align-items: center;
   margin-bottom: 10px; }
   .imagem-logo img {
-    width: 100%;
-    margin-top: -20px;
-    max-width: 600px; }
+    margin-top: 40px;
+    width: 120px;
+    margin-bottom: 60px; }
 
 .links-navbar {
   width: 100%;
@@ -75,6 +75,13 @@ body {
     line-height: 2.5;
     text-align: center; }
 
+  .imagem-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .imagem-logo img {
+      margin-bottom: 15px; }
+
   .links-navbar {
     margin: 0;
     padding: 0; }
@@ -87,9 +94,6 @@ body {
 @media (max-width: 320px) {
   .conteiner {
     width: 100%; }
-
-  .imagem-logo {
-    width: 400px; }
 
   .links-navbar {
     margin: 0;

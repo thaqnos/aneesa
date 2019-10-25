@@ -7,9 +7,9 @@
     margin-bottom: 10px;
 
     img {
-        width: 100%;
-        margin-top: -20px;
-        max-width: 600px;
+        margin-top: 40px;
+        width: 120px;
+        margin-bottom: 60px;
     }
 }
 
@@ -71,6 +71,13 @@
         text-align: center;
     }
 
+    .imagem-logo {
+        @include display-flex(center, center);
+
+        img{
+            margin-bottom: 15px;
+        }
+    }
     .links-navbar{
         margin: 0;
         padding: 0;
@@ -90,10 +97,6 @@
 @media(max-width: 320px){
     .conteiner {
         width: 100%;
-    }
-
-    .imagem-logo{
-        width: 400px;
     }
 
     .links-navbar{

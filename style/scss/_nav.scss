@@ -7,7 +7,7 @@
     margin-bottom: 10px;
 
     img {
-        width: 400px;
+        width: 600px;
         margin-top: -20px;
     }
 }
@@ -68,5 +68,45 @@
         display: block;
         line-height: 2.5;
         text-align: center;
+    }
+
+    .links-navbar{
+        margin: 0;
+        padding: 0;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            
+            li {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+
+@media(max-width: 320px){
+    .conteiner {
+        width: 100%;
+    }
+
+    .imagem-logo{
+        width: 400px;
+    }
+
+    .links-navbar{
+        margin: 0;
+        padding: 0;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            
+            li {
+                margin: 0;
+                padding: 0;
+            }
+        }
     }
 }

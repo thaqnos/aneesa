@@ -1,8 +1,8 @@
 let banner = document.querySelector('.banner-destaque img');
 let banners = [
-    '/home/thais/Área de Trabalho/aneesa/resources/img/modelo_11.JPG',
-    '/home/thais/Área de Trabalho/aneesa/resources/img/modelo10.JPG',
-    '/home/thais/Área de Trabalho/aneesa/resources/img/modelo3.JPG',
+    './resources/img/modelo_11.JPG',
+    './resources/img/modelo10.JPG',
+    './resources/img/modelo3.JPG',
 ];
 
 let bannerAtual = 0;

@@ -91,6 +91,12 @@ body {
       .links-navbar ul li {
         margin: 0;
         padding: 0; } }
+@media (max-width: 660px) {
+  .conteiner {
+    width: 100%; } }
+@media (max-width: 520px) {
+  .conteiner {
+    width: 100%; } }
 @media (max-width: 320px) {
   .conteiner {
     width: 100%; }

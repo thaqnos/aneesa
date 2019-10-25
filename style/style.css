@@ -91,12 +91,6 @@ body {
       .links-navbar ul li {
         margin: 0;
         padding: 0; } }
-@media (max-width: 660px) {
-  .conteiner {
-    width: 100%; } }
-@media (max-width: 520px) {
-  .conteiner {
-    width: 100%; } }
 @media (max-width: 320px) {
   .conteiner {
     width: 100%; }
@@ -352,7 +346,7 @@ h3 {
     width: 100%; }
     .lancamentos .conteiner-lancamentos {
       margin: 0 auto;
-      width: 70%; }
+      width: 100%; }
       .lancamentos .conteiner-lancamentos .lancamentos-cartoes {
         flex-direction: column; }
         .lancamentos .conteiner-lancamentos .lancamentos-cartoes .lancamentos-cartoes__produto {
@@ -360,7 +354,7 @@ h3 {
           justify-content: center;
           align-items: center;
           flex-direction: column;
-          width: 60%; }
+          width: 70%; }
 
   .lancamentos-cartoes__btn-call-to-action {
     margin-bottom: 25px; }

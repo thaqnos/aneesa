@@ -70,7 +70,7 @@
     
         .conteiner-lancamentos {
             margin: 0 auto;
-            width: 70%;
+            width: 100%;
     
             .lancamentos-cartoes {
                 flex-direction: column;
@@ -78,7 +78,7 @@
                 .lancamentos-cartoes__produto {
                     @include display-flex(center, center);
                     flex-direction: column;
-                    width: 60%;
+                    width: 70%;
                 }
             }
         }    
